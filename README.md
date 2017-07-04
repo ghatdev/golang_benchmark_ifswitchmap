@@ -8,7 +8,7 @@
   OS: Mac OSX 10.12.5 64bit  
 ### Test2
   MODEL: VMWare ESXI 6.5a Virtualized   
-  CPU: Intel Xeon E3 2 Virtualized CPU   
+  CPU: Intel Xeon E3 1245v5 2 Virtualized CPU   
   RAM: 2GB    
   OS: Ubuntu Linux 64bit 17.04 Desktop  
 
