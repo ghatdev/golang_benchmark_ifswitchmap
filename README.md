@@ -46,4 +46,4 @@
     ok  	command-line-arguments	17.943s
 
 ## Conclusion
-  Why virtual machine is faster then my real mac?
+  Why virtual machine is faster than my real mac?
