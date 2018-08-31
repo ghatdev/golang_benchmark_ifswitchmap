@@ -11,6 +11,11 @@
   CPU: Intel Xeon E3 1245v5 2 Virtualized CPU   
   RAM: 2GB    
   OS: Ubuntu Linux 64bit 17.04 Desktop  
+### Test3
+  MODEL: Apple Macbook Pro Retina 2018 mid CTO 
+  CPU: Intel Core I9-8950HK  
+  RAM: 32GB  
+  OS: Mac OSX 10.13.6 64bit
 
 ## Result 
 ### Test1
@@ -44,6 +49,23 @@
     BenchmarkMapFuncLong-2       	100000000	        19.9 ns/op
     PASS
     ok  	command-line-arguments	17.943s
+    
+### Test3
+    BenchmarkSwitchIntShort-12     	200000000	         9.24 ns/op
+    BenchmarkIfIntShort-12         	200000000	         7.77 ns/op
+    BenchmarkMapIntShort-12        	100000000	        12.1 ns/op
+    BenchmarkSwitchFuncShort-12    	200000000	         9.04 ns/op
+    BenchmarkIfFuncShort-12        	200000000	         7.78 ns/op
+    BenchmarkMapFuncShort-12       	100000000	        12.7 ns/op
+    BenchmarkSwitchIntLong-12      	100000000	        21.5 ns/op
+    BenchmarkIfIntLong-12          	100000000	        12.2 ns/op
+    BenchmarkMapIntLong-12         	100000000	        15.9 ns/op
+    BenchmarkSwitchFuncLong-12     	100000000	        21.5 ns/op
+    BenchmarkIfFuncLong-12         	100000000	        11.9 ns/op
+    BenchmarkMapFuncLong-12        	100000000	        16.5 ns/op
+    PASS
+    ok  	golang_benchmark_ifswitchmap	22.770s
 
 ## Conclusion
   Why virtual machine is faster than my real mac?
+  IF is the FASTEST.
