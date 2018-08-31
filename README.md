@@ -12,7 +12,7 @@
   RAM: 2GB    
   OS: Ubuntu Linux 64bit 17.04 Desktop  
 ### Test3
-  MODEL: Apple Macbook Pro Retina 2018 mid CTO 
+  MODEL: Apple Macbook Pro Retina 2018 mid CTO  
   CPU: Intel Core I9-8950HK  
   RAM: 32GB  
   OS: Mac OSX 10.13.6 64bit
